@@ -1,0 +1,146 @@
+.wraper {
+    width: 845px;
+}
+.alisa{
+    text-align: justify;
+}
+.alisa p {
+    text-align = "justify"
+}
+
+.image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+}
+.image2{
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
+}
+.alisa span{
+    color: blue;
+}
+.alisa  mark{
+    color: green;
+    background-color: white;
+}
+
+
+#wraper2 {
+    background: #0d5825;
+    width: 705px;
+    height: 705px;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+#wraper2 blockquote q {
+    display: block;
+}
+#wraper2 blockquote{
+    text-align: center;
+}
+#wraper2 ul {
+    position: relative;
+    list-style: none;
+}
+#wraper2 ul li {
+    list-style: none;
+    display: block;
+    position: absolute;
+    height: 210px;
+    width: 150px;
+    background-image: url('card01.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 275px;
+    top: 100px;
+    transform-origin: 40% 80%;
+    transform: rotate(-15deg);
+    transition: top 0.4s ease-out 0.2s;
+}
+#wraper2 ul li:first-child {
+    transform: rotate(-40deg);
+}
+#wraper2 ul li:last-child {
+    transform: rotate(10deg);
+}
+#wraper2 ul li:hover {
+    top: 50px;
+}
+
+
+#wraper3 {
+    width: 700px;
+    height: 700px;
+}
+#wraper3 ul {
+    position: relative;
+    list-style: none;
+}
+#wraper3 ul li {
+    list-style: none;
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    box-shadow:  10px 10px 20px blue;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#wraper3 ul li:nth-child(1) {
+    left:0;
+    top:0;
+}
+#wraper3 ul li:nth-child(2) {
+    left:100px;
+    top:100px;
+}
+#wraper3 ul li:nth-child(3) {
+    left:200px;
+    top:200px;
+}
+#wraper3 ul li i {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-image: url('god_2.jpg');
+    background-size: 140px 140px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+#wraper3 ul li:nth-child(1) i {
+    background-position: top left;
+}
+#wraper3 ul li:nth-child(2) i {
+    background-position: top right;
+}
+#wraper3 ul li:nth-child(3) i {
+    background-position: bottom left;
+}
+#wraper3 ul li span {
+    display: none;
+    color: white;
+}
+#wraper3 ul li:hover {
+    background-image: none;
+    width: 300px;
+    height: 300px;
+    z-index: 100;
+}
+#wraper3 ul li:hover i {
+    display: none;
+}
+#wraper3 ul li:hover span {
+    display: inline-block;
+}
